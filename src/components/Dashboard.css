@@ -1,0 +1,28 @@
+table {
+    border: 1px solid black;
+     border-collapse: collapse;
+     width:100%;
+     text-align: center;
+}
+td {
+    border: 1px solid black;
+   
+}
+h2 {
+    text-align: center;
+}
+.dashHeader {
+    background-color: rgb(225, 223, 103);
+    border: 2px solid black;
+    height:50px;
+    
+}
+tbody tr {
+    height:50px;
+}
+tbody tr:nth-child(odd) {
+  background-color: aliceblue; 
+}
+tbody tr:nth-child(even) {
+  background-color: white; 
+}
